@@ -1,0 +1,140 @@
+/* Body Background */
+body {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,50,253,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Adjust this as needed */
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome header styling */
+.welcome-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.welcome-header h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.welcome-header p {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px; /* Space between left and right sections */
+}
+
+/* Left section styling with centered and lively login form */
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,50,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.login-form {
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,50,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.login-form h2 {
+    color: #2d89e5;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.login-form label {
+    text-align: left;
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,50,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.login-form button:hover {
+    background-color: black;
+}
+
+.back-button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #ddd;
+}
+
+/* Right section styling for rules */
+.right-section {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.right-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.right-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.right-section ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.right-section ul li:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,73 @@
+/* Navigation and Title */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Date Filter */
+.date-filter {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Reservation Form */
+.reservation-form {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Availability Table */
+.availability {
+    flex: 2;
+}
+
+.availability table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.availability th,
+.availability td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.availability td[style*="background-color: red"] {
+    color: #fff;
+}
+
+.availability td[style*="background-color: green"] {
+    color: #fff;
+}

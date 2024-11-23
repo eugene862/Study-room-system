@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.reservation-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.time-grid table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.time-grid th, .time-grid td {
+    padding: 10px;
+    text-align: center;
+}
+
+.time-grid .available {
+    background-color: green;
+}
+
+.time-grid .booked {
+    background-color: red;
+}
+
+.reserve-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reserve-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
